@@ -1,2 +1,9 @@
 # MyWeatherApi
-Personalized web interface for weather API in Python/Flask
+Personalized web weather interface:
+- using openweathermap.org API
+- API json handling in Python - MyWeatherApi.py file
+- Custom parameters for application in custom.py:
+    - city name for weather information
+    - calendar dictionary for holidays notification - 'DDMM':'Holiday' format
+
+Updated 27.02.2020
