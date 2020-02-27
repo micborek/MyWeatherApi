@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pl-PL">
+<head>
+    <meta http-equiv="refresh" content="30" >
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" rel="stylesheet"
+          integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
+          crossorigin="anonymous">
+    <meta charset="UTF-8">
+    <title>MyWeatherApi</title>
+</head>
+<body>
+<center>
+    <br>
+<h1>{{location}}</h1><br>
+    <h2>{{temp}}°C</h2>
+    <img src="{{ url_for('static',filename=icon)}}"><br>
+    <b>{{date}}</b><br>
+    {{desc}}<br>
+    Ciśnienie : {{press}} hPa<br>
+    Wilgotność : {{humid}} %<br>
+    Wiatr : {{wind}} m/s <br>
+    Wschód słońca o <b>{{sunrise}}</b><br>
+    Zachód słońca o <b>{{sunset}}</b>
+    <br><br>
+    <b>{{holiday}}</b>
+</center>
+</body>
+</html>
