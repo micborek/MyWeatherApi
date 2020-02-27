@@ -7,4 +7,6 @@ Personalized web weather interface:
     - calendar dictionary for holidays notification - 'DDMM':'Holiday' format
 - Polish language interface
 
+![Example_image](/screen.png)
+
 Updated 27.02.2020
