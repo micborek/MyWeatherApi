@@ -4,10 +4,10 @@ import urllib.request
 import json
 from datetime import datetime, date
 from customize import custom
+from secret import token
 
-# TODO: move the id to secret and .gitignore
 api_path = "http://api.openweathermap.org/data/2.5/weather?q=" + custom.city +\
-           "&units=metric&lang=pl&appid=b03040b45d9db1e91b4952b8870e9986"
+           "&units=metric&lang=pl&appid=" + token
 
 with urllib.request.urlopen(api_path) as url:
     data = json.loads(url.read())
