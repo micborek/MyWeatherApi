@@ -1,5 +1,5 @@
 # MyWeatherApi
-This project is an attempt to use Flask as a tool for customized data in a web browser.
+This project is an attempt to use Flask as a tool for displaying customized data in a web browser.
 
 Personalized web weather interface:
 - using openweathermap.org API
