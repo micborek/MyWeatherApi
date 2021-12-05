@@ -1,11 +1,12 @@
+"""This is the main module for running the Flask framework"""
+
 from flask import Flask, render_template
 import MyWeatherApi as Mwa
 
-app = Flask(__name__,static_url_path='/Flask')
+app = Flask(__name__, static_url_path='/Flask')
 
 
 @app.route("/")
-@app.route("/home")
 def home():
     return render_template('home.html',
                            location=Mwa.get_location(),
