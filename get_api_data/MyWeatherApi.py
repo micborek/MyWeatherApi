@@ -3,7 +3,7 @@
 import urllib.request
 import json
 from datetime import datetime, date
-import custom
+from customize import custom
 
 # TODO: move the id to secret and .gitignore
 api_path = "http://api.openweathermap.org/data/2.5/weather?q=" + custom.city +\

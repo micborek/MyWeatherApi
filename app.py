@@ -1,7 +1,7 @@
 """This is the main module for running the Flask framework"""
 
 from flask import Flask, render_template
-import MyWeatherApi as Mwa
+from get_api_data import MyWeatherApi as Mwa
 
 app = Flask(__name__, static_url_path='/Flask')
 
