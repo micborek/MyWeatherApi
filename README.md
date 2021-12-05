@@ -1,4 +1,6 @@
 # MyWeatherApi
+This project is an attempt to use Flask as a tool for customized data in a web browser.
+
 Personalized web weather interface:
 - using openweathermap.org API
 - API json handling in Python - MyWeatherApi.py file
@@ -10,4 +12,4 @@ Personalized web weather interface:
 
 ![Example_image](/screen.PNG)
 
-Updated 27.02.2020
+Last update 05.12.2021
